@@ -1,0 +1,30 @@
+# Java / Spring Boot
+target/
+backend/target/
+*.class
+
+# H2 Database local
+backend/data/
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Ambiente / credenciais
+.env
+.env.*
+*.key
+
+# Node / React
+node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# IDEs
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
