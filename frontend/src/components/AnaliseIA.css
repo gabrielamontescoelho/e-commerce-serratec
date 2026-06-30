@@ -1,0 +1,78 @@
+.analise-section {
+  animation: fadeIn 0.4s ease;
+}
+
+.analise-section h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-bottom: 0.25rem;
+}
+
+.analise-pedido-id {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.analise-resumo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.analise-valor {
+  font-weight: 700;
+  color: #a5b4fc;
+}
+
+.analise-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.analise-card {
+  display: flex;
+  gap: 0.85rem;
+  padding: 1rem;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 10px;
+}
+
+.analise-icone {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.analise-card h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  margin-bottom: 0.25rem;
+}
+
+.analise-card p {
+  font-size: 0.95rem;
+  color: #e2e8f0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
